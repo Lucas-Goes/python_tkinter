@@ -1,0 +1,75 @@
+2023-02-12 22:11:02,973 - INFO - Current time: Sun Feb 12 22:11:02 2023
+2023-02-12 22:11:04,974 - INFO - Current time: Sun Feb 12 22:11:04 2023
+2023-02-12 22:11:06,976 - INFO - Current time: Sun Feb 12 22:11:06 2023
+2023-02-12 22:11:08,977 - INFO - Current time: Sun Feb 12 22:11:08 2023
+2023-02-12 22:11:10,978 - INFO - Current time: Sun Feb 12 22:11:10 2023
+2023-02-12 22:11:12,980 - INFO - Current time: Sun Feb 12 22:11:12 2023
+2023-02-12 22:11:14,982 - INFO - Current time: Sun Feb 12 22:11:14 2023
+2023-02-12 22:26:32,305 - INFO - Processo Iniciado
+2023-02-12 22:26:32,343 - INFO - Extração em Andamento
+2023-02-12 22:26:32,709 - INFO - Extração Finalizada
+2023-02-12 22:26:33,061 - INFO - Carga Hadoop Finalizada
+2023-02-12 22:28:02,363 - INFO - Processo Iniciado
+2023-02-12 22:28:02,410 - INFO - Extração em Andamento
+2023-02-12 22:28:03,012 - INFO - Extração Finalizada
+2023-02-12 22:28:03,370 - INFO - Carga Hadoop Finalizada
+2023-02-12 22:28:10,972 - INFO - Processo Iniciado
+2023-02-12 22:28:11,006 - INFO - Extração em Andamento
+2023-02-12 22:28:11,441 - INFO - Extração Finalizada
+2023-02-12 22:28:11,779 - INFO - Carga Hadoop Finalizada
+2023-02-12 22:28:45,546 - INFO - Processo Iniciado
+2023-02-12 22:28:45,581 - INFO - Extração em Andamento
+2023-02-12 22:28:45,920 - INFO - Extração Finalizada
+2023-02-12 22:28:46,259 - INFO - Carga Hadoop Finalizada
+2023-02-12 22:29:53,655 - INFO - Processo Iniciado
+2023-02-12 22:29:54,023 - INFO - Extração em Andamento
+2023-02-12 22:29:54,372 - INFO - Extração Finalizada
+2023-02-12 22:29:54,721 - INFO - Carga Hadoop Finalizada
+2023-02-12 22:30:20,366 - INFO - Processo Iniciado
+2023-02-12 22:30:20,367 - INFO - Extração em Andamento
+2023-02-12 22:30:20,368 - INFO - Extração Finalizada
+2023-02-12 22:30:20,368 - INFO - Carga Hadoop Finalizada
+2023-02-12 22:31:07,732 - INFO - Processo Iniciado
+2023-02-12 22:31:09,736 - INFO - Extração em Andamento
+2023-02-12 22:31:11,741 - INFO - Extração Finalizada
+2023-02-12 22:31:13,745 - INFO - Carga Hadoop Finalizada
+2023-02-12 22:31:13,752 - INFO - Processo Iniciado
+2023-02-12 22:31:15,755 - INFO - Extração em Andamento
+2023-02-12 22:31:17,761 - INFO - Extração Finalizada
+2023-02-12 22:31:19,765 - INFO - Carga Hadoop Finalizada
+2023-02-12 22:31:43,621 - INFO - Processo Iniciado
+2023-02-12 22:31:45,631 - INFO - Extração em Andamento
+2023-02-12 22:31:47,636 - INFO - Extração Finalizada
+2023-02-12 22:31:49,641 - INFO - Carga Hadoop Finalizada
+2023-02-12 22:31:56,490 - INFO - Processo Iniciado
+2023-02-12 22:31:58,494 - INFO - Extração em Andamento
+2023-02-12 22:32:00,499 - INFO - Extração Finalizada
+2023-02-12 22:32:02,503 - INFO - Carga Hadoop Finalizada
+2023-02-12 22:32:23,408 - INFO - Processo Iniciado
+2023-02-12 22:32:25,419 - INFO - Extração em Andamento
+2023-02-12 22:32:27,423 - INFO - Extração Finalizada
+2023-02-12 22:32:29,428 - INFO - Carga Hadoop Finalizada
+2023-02-12 22:35:20,726 - INFO - Processo Iniciado
+2023-02-12 22:35:22,734 - INFO - Extração em Andamento
+2023-02-12 22:35:24,739 - INFO - Extração Finalizada
+2023-02-12 22:35:26,767 - INFO - Carga Hadoop Finalizada
+2023-02-12 22:35:32,908 - INFO - Processo Iniciado
+2023-02-12 22:35:34,923 - INFO - Extração em Andamento
+2023-02-12 22:35:36,928 - INFO - Extração Finalizada
+2023-02-12 22:35:38,932 - INFO - Carga Hadoop Finalizada
+2023-02-12 22:35:43,587 - INFO - Processo Iniciado
+2023-02-12 22:35:45,591 - INFO - Extração em Andamento
+2023-02-12 22:35:47,597 - INFO - Extração Finalizada
+2023-02-12 22:35:49,602 - INFO - Carga Hadoop Finalizada
+2023-02-12 22:41:10,588 - INFO - Processo Iniciado
+2023-02-12 22:41:12,597 - INFO - Extração em Andamento
+2023-02-12 22:41:14,599 - INFO - Extração Finalizada
+2023-02-12 22:41:16,601 - INFO - Carga Hadoop Finalizada
+2023-02-12 22:41:49,439 - INFO - Processo Iniciado
+2023-02-12 22:41:51,455 - INFO - Extração em Andamento
+2023-02-12 22:41:53,459 - INFO - Extração Finalizada
+2023-02-12 22:41:55,463 - INFO - Carga Hadoop Finalizada
+2023-02-12 22:41:57,655 - INFO - Processo Iniciado
+2023-02-12 22:41:59,671 - INFO - Extração em Andamento
+2023-02-12 22:42:01,677 - INFO - Extração Finalizada
+2023-02-12 22:42:03,679 - INFO - Carga Hadoop Finalizada
