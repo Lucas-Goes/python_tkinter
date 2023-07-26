@@ -1,0 +1,47 @@
+
+# Arquivo interface.py
+
+import tkinter as tk
+
+class MinhaInterface:
+    def __init__(self, root):
+        self.root = root
+        self.textbox = tk.Text(self.root)
+        self.textbox.pack()
+
+        self.botao_executar = tk.Button(self.root, text="Executar Função", command=self.executar_funcao_principal)
+        self.botao_executar.pack()
+
+    def atualizar_textbox(self, novo_valor):
+        self.textbox.delete("1.0", tk.END)
+        self.textbox.insert(tk.END, novo_valor)
+
+    def executar_funcao_principal(self):
+        # Aqui você pode chamar a função principal do arquivo de funções e atualizar o textbox conforme as etapas são executadas
+        from funcoes import funcao_principal
+
+        for etapa, resultado in funcao_principal():
+            self.atualizar_textbox(f"Etapa {etapa}: {resultado}")
+            self.root.update_idletasks()
+
+
+# Arquivo funcoes.py
+
+def funcao_principal():
+    # Exemplo de função principal com etapas e resultados
+    for i in range(5):
+        yield i, f"Resultado da Etapa {i}"
+
+# Arquivo main.py
+
+import tkinter as tk
+from interface import MinhaInterface
+
+def main():
+    root = tk.Tk()
+    minha_interface = MinhaInterface(root)
+    root.mainloop()
+
+if __name__ == "__main__":
+    main()
+
