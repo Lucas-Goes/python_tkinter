@@ -1,0 +1,39 @@
+
+
+import threading
+import tkinter as tk
+from queue import Queue
+
+def sql_function():
+    try:
+        # Tentativa de conectar ao SQL Server e extrair o Excel
+        # ...
+    except Exception as e:
+        error_queue.put(str(e))  # Coloca o erro na fila compartilhada
+
+def check_error():
+    while True:
+        try:
+            error_msg = error_queue.get_nowait()  # Tenta pegar erro da fila
+            error_label.config(text=error_msg)    # Atualiza a interface com erro
+        except Queue.Empty:
+            pass
+        root.after(1000, check_error)  # Verifica novamente após 1 segundo
+
+def start_sql_thread():
+    sql_thread = threading.Thread(target=sql_function)
+    sql_thread.start()
+
+root = tk.Tk()
+error_queue = Queue()
+
+error_label = tk.Label(root, text="", fg="red")
+error_label.pack()
+
+start_button = tk.Button(root, text="Iniciar", command=start_sql_thread)
+start_button.pack()
+
+# Inicia a função de verificação de erros em uma thread separada
+threading.Thread(target=check_error).start()
+
+root.mainloop()
